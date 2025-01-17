@@ -33,7 +33,7 @@ export default function Tra() {
   };
 
   return (
-    <div className="p-6">
+    <div className="sm:p-6 overflow-hidden">
       <div className="flex  justify-between">
         <div className="space-x-2 border-x">
         <a href="./transactionData.json" download><Button variant="ghost" >Download</Button></a>
