@@ -55,7 +55,7 @@ const TableHead = (({ className, ...props }, ref) => (
   <th
     ref={ref}
     className={cn(
-      "h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0",
+      "h-12 px-[3px] sm:px-4 text-left align-middle font-medium text-muted-foreground ",
       className
     )}
     {...props}
@@ -66,7 +66,7 @@ TableHead.displayName = "TableHead"
 const TableCell = (({ className, ...props }, ref) => (
   <td
     ref={ref}
-    className={cn("p-4 align-middle [&:has([role=checkbox])]:pr-0", className)}
+    className={cn("py-4 sm:px-4 px-[3px] align-middle [&:has([role=checkbox])]:pr-0", className)}
     {...props}
   />
 ))
