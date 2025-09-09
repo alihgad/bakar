@@ -18,8 +18,13 @@ export default function NavBar() {
     <>
 
   
-    <nav  className="bg-gray-800">
-      /// husisen
+    <nav  className="bg-gray-950 ">
+      {/* /// husisen */}
+<div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem] hidden "
+   husisen 
+></div>
+
+
       <div className="mx-auto max-w-7xl  px-8">
         <div className="relative flex h-16 items-center justify-between">
           
